@@ -1,0 +1,140 @@
+.body {
+    background-image: url("../img/bg_pizza.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: rgb(171, 0, 2);
+    min-width: 300px;
+    z-index: 30;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a {
+  text-decoration: none;
+    cursor: auto;
+}
+.header {
+    padding: 30px 0;
+}
+.logo {
+    position: relative;
+    left: 18%;
+    display: block;
+    top: 20px;
+    width: 130px;
+    height: 35px;
+    z-index: 31;
+}
+.social {
+    position: fixed; /* позиция прикручена*/
+    right: 0; /*to the right*/
+    top: 35%;
+}
+.fb {
+    height: 35px;
+    right: 0;
+    position: relative;
+}
+.tweet {
+    position: absolute;
+    right: 0;
+    height: 35px;
+    top: 36px;
+}
+.container{
+    position: relative;
+    padding-bottom: 40px;
+    width: 300px;
+    vertical-align: top;
+    background-color: floralwhite;
+    z-index: 35;
+    min-height: 100px;
+    margin: 0px auto; /* top and bottom are 0 and sides - auto*/
+}
+.videoTitle {
+    position: relative;
+    bottom: auto;
+    height: 26px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    text-indent: 20px; /* Отступ первой строки */
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: floralwhite;
+    background-color: rgb(171, 0, 2);
+    padding: 10px 0 0 0;
+    min-height: 10px;
+}
+
+.video{
+    z-index: 40;
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    width: 86%;  /* на ширину of containter*/
+    height: 35%;
+    background-color: #e9e7e5;
+}
+
+.play {
+    position: absolute;
+    background-image: url("../img/Play.png");
+    top:45%;
+    left: 50%;
+    width: 25px;
+}
+.text{
+    padding: 0px 5% 0px 5%; /* x справа x слева */
+    text-align: justify;
+    margin-top: 47%;
+    margin-left: 3%;
+    color: rgb(171, 0, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+}
+.CategoryName  {
+    color: rgb(171, 0, 1);
+    text-indent: 20px; /* Отступ первой строки */
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    z-index: 100;
+}
+.date {
+    color: grey;
+    text-indent: 20px; /* Отступ первой строки */
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+}
+
+.dotes {
+    color: rgb(171, 0, 1);
+    font-size: larger;
+    padding: 0;
+}
+
+
+
+
+
+
+/*
+li {
+    list-style: none;
+    padding-left: 70px;
+    position: relative;
+}
+
+li:before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    width: 70px;
+    height: 40px;
+    background: url("../img/Logo.png");
+    background-size: 100% auto;
+}
+*/
